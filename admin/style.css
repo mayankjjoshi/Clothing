@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* === sidenav section starts === */
+.sidenav{
+    height: 100%;
+    width: 200px;
+    background-color:black;
+    /* overflow: auto; */
+    position: fixed;
+}
+.sidenav .logo{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.sidenav a{
+    display: block;
+    color: white;
+    padding: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+.sidenav a:hover{
+    color: black;
+    background-color: white;
+    text-decoration: underline;
+}
+/* === sidenav section ends === */
+
+/* === main section starts  ==== */
+.main{
+   margin-left: 200px;
+   background-color:whitesmoke;
+   padding: 20px 16px;
+   height: 1000px;
+    /* text-align: center;  */
+   color: black;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+.main .page-title{
+    text-align: center;
+}
+.main .top{
+    display: flex;
+    padding: 5px 0px ;
+}
+.main .add-button{
+    padding-left: 720px;
+}
+.main .add-button button{
+    background-color: lightskyblue;
+    color:black;
+    font-weight:bold;
+    cursor: pointer;
+    text-align: center;
+    width: 200px;
+    height: 34px;
+}
+.main table{
+    align-items: center;
+    color: black;
+    text-align: center;
+    border-color: brown;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 4px;
+}
+.main table th,td{
+    padding: 8px;
+}
+/* === main section ends  ==== */
+
+/* === footer section starts  ==== */
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:lightgray;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    height: 40px;
+    padding-top: 5px;
+}
+
+/* === footer section ends  ==== */

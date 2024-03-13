@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Online Fashion Store | Men | Women | Kids</title> -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <script src="script.js"></script>
+    <section id="prodetails">
+      <div class="single-pro-image">
+          <img src="./cat/men1.webp" width="100%" id="MainImg" alt="">
+          <div class="small-img-group">
+            <div class="small-img-col">
+                <img src="./cat/men2.webp" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="./cat/men-change3.webp" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="./cat/men2.webp" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="./cat/men1.webp" width="100%" class="small-img" alt="">
+            </div>
+          </div>
+      </div>
+      <div class="single-pro-details">
+        <h6>Home/T-shirt</h6>
+        <h4>Men's Fashion T-shirts</h4>
+        <h2>$133.00</h2><br>
+        <select>
+            <option>Select Size</option>
+            <option>XL</option>
+            <option>XXL</option>
+            <option>Small</option>
+            <option>Large</option>
+        </select>
+        <input type="number" value="1">
+        <button>Add To Cart</button>
+        <h4>Product Details</h4>
+        <span>The fabric is custom knit using 100% Extra Long Staple Pima Cotton 
+             that's incredibly soft and breathable 
+            (less than 1% of the world's cotton is graded extra long staple). 
+            The long fiber length of Pima Cotton ensures the fabric retains its 
+            strength and softness, even after years of wear.</span>
+      </div>
+    </section>
+    <script>
+        var MainImg = document.getElementById("MainImg");
+var smallimg = document.getElementsByClassName("small-img");
+
+smallimg[0].onclick = function () {
+	MainImg.src = smallimg[0].src;
+}
+smallimg[1].onclick = function () {
+	MainImg.src = smallimg[1].src;
+}
+smallimg[2].onclick = function () {
+	MainImg.src = smallimg[2].src;
+}
+smallimg[3].onclick = function () {
+	MainImg.src = smallimg[3].src;
+}
+    </script>
+</body>
+</html>
